@@ -41,6 +41,18 @@
     .objcontent{
         margin-left: 23px;
     }
+    .objcontent::selection{
+        background-color: bisque;
+        color: #ff2255;
+    }
+    li{
+        padding-bottom: 5px;
+        list-style-type: none;
+        
+    }
+    li::before{
+        content:"👉";
+    }
 
 </style>
 <body>
